@@ -1,286 +1,338 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="Assist\css\style.css">
-    <link rel="stylesheet" href="Assist\boot-strap\bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    
-<!-- nav start -->
+    <link rel="stylesheet" href="Assist\css\style.css" />
+    <link rel="stylesheet" href="Assist\boot-strap\bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Assist\css\media-query.css">
+  </head>
+  <body>
+    <!-- nav start -->
 
-<nav class="navbar navbar-light bg-white all">
+    <nav class="navbar navbar-light bg-white all">
+      <div class="left-side-nav">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input class="search" type="text" placeholder="Search" />
+      </div>
 
-    <div class="left-side-nav">
-<i class="fa-solid fa-magnifying-glass"></i>
-<input class="search" type="text" placeholder="Search">
-</div>
+      <div class="midlle-nav">
+        <h3 class="name-2">Omar Moamed</h3>
+      </div>
 
-<div class="midlle-nav">
-        <h3 class="name">Omar Moamed</h3>
-</div>
-
-<div class="right-side-nav">
+      <div class="right-side-nav">
         <i class="fa-solid fa-user"></i>
         <i class="fa-regular fa-heart"></i>
         <i class="fa-solid fa-cart-shopping"></i>
         <div class="two"><i class="fa-solid fa-2"></i></div>
-</div>
-</nav>
-<hr class="hr-1">
-<!-- nav end -->
-    
-    
+      </div>
+    </nav>
+    <hr class="hr-1" />
+    <!-- nav end -->
+
+    <!-- data start -->
+
     <section class="data">
-    <a class="home" href="index.html">Home</a>
-    <a href="#">About</a>
-    <a href="#">Shope</a>
-    <a href="#">CATALOGUE</a>
-    <a href="#">CONTACT</a>
-    <a href="#">NEW ARRIVALS</a>
+      <a href="index.html">
+        <button>
+          <span class="box"> Home </span>
+        </button></a
+      >
+      <a href="shope.html"
+        ><button class="but-2">
+          <span class="box"> Shope </span>
+        </button></a
+      >
+
+      <a href="#"
+        ><button>
+          <span class="box"> About </span>
+        </button></a
+      >
+
+      
+
+      <button>
+        <span class="box"> CATALOGUE </span>
+      </button>
+      <button>
+        <span class="box"> CONTACT </span>
+      </button>
+      <button>
+        <span class="box"> NEW ARRIVALS </span>
+      </button>
     </section>
+
+    <!-- data end -->
+
     <div class="left-sec">
-        <a href="index.html">Home</a>
-        <h5>/</h5>
-        <p>shop</p>
-        </div>
+      <a href="index.html">Home</a>
+      <h5>/</h5>
+      <p>shop</p>
+    </div>
 
     <section class="all-product">
-
-
-
-<div>
-<div class="midlle-sec col-xl-4 col-md-4 col-sm-4 col-lg-4">
-    <div class="myCard">
-        <div class="innerCard">
-            <div class="frontSide">
+      <div>
+        <div class="midlle-sec col-xl-4 col-md-4 col-sm-4 col-lg-4">
+          <div class="myCard">
+            <div class="innerCard">
+              <div class="frontSide">
                 <h3 class="title">CATEGORIES</h3>
-              
+              </div>
+              <div class="backSide">
+                <h3 class="title">men(200)</h3>
+                <h3>women(180)</h3>
+                <h3>children(250)</h3>
+              </div>
             </div>
-            <div class="backSide">
-                <p class="title">men(200)</p>
-                <p>women(180)</p>
-                <p>children(250)</p>
-            </div>
+          </div>
         </div>
-    </div>
 
-
-
-
-</div>
-
-
-
-<div class="right-sec">
-    <div class="myCard-2">
-        <div class="innerCard-2">
-            <div class="frontSide-2">
-               <h3>FILTER BY SIZE</h3>
-              
-            </div>
-            <div class="backSide-2">
-                <h4>size</h4>
-                <div class="size-1">
-                    <p>larg</p>
-                    <input class="radio" type="radio">
+        <div class="right-sec">
+          <div class="myCard-2">
+            <div class="innerCard-2">
+              <div class="frontSide-2">
+                <h3>FILTER BY SIZE</h3>
+              </div>
+              <div class="backSide-2">
+                <div class="radio-input-wrapper">
+                  <label class="label">
+                    <input value="value-2" name="value-radio" id="value-2" class="radio-input" type="radio">
+                    <div class="radio-design"></div>
+                    <div class="label-text">Larg</div>
+                  </label>
+                  <label class="label">
+                    <input value="value-3" name="value-radio" id="value-3" class="radio-input" type="radio">
+                    <div class="radio-design"></div>
+                    <div class="label-text">Medium</div>
+                  </label>
+                  <label class="label">
+                    <input value="value-4" name="value-radio" id="value-4" class="radio-input" type="radio">
+                    <div class="radio-design"></div>
+                    <div class="label-text">Small</div>
+                  </label>
                 </div>
-                <div class="size-1">
-                    <p>medium</p>
-                    <input class="radio" type="radio">
                 </div>
-                <div class="size-1">
-                    <p>small</p>
-                    <input class="radio" type="radio">
-                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</div>
-</div>
+      </div>
 
-
-<div class="the-all">
-<div class="product-1">
-    <div class="card card col-xl-4 col-md-4 col-sm-4 col-lg-4 mt-5" >
-        <img src="Assist\photos\WhatsApp Image 2023-02-11 at 4.00.50 PM (2).jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-        <p class="card-text"></p>
-        <div class="text-center tank">
-        <h2>Tank Top</h2>
-        <p>Finding perfect t-shirt</p>
-        <p>35$</p>
-        </div>
-        </div>
-        </div>
-        <div class="card card col-xl-4 col-md-4 col-sm-4 col-lg-4 mt-5 " >
-        <img src="Assist\photos\wight.jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-        <p class="card-text"></p>
-        <div class="text-center tank">
-          <h2>Tank Top</h2>
-          <p>Finding perfect shoes</p>
-          <p>20$</p>
-        </div>
-        </div>
-        </div>
-        <div class="card card col-xl-4 col-md-4 col-sm-4 col-lg-4 mt-5" >
-        <img src="Assist\photos\WhatsApp Image 2023-02-11 at 4.00.50 PM (1).jpeg" class="card-img-top" alt="...">
-        <div class="card-body">
-        <p class="card-text"></p>
-        <div class="text-center tank">
-          <h2>Tank Top</h2>
-          <p>Finding perfect t-shirt</p>
-          <p>50$</p>
-        </div>
-        </div>
-        </div>
-    </div>
-
-    <div class="product-2">
-        <div class="card card col-xl-4 col-md-4 col-sm-4 col-lg-4 mt-5" >
-            <img src="Assist\photos\WhatsApp Image 2023-02-11 at 4.00.50 PM (2).jpeg" class="card-img-top" alt="...">
+      <div class="the-all">
+        <div class="product-1">
+          <div class="card card col-xl-4 col-md-4 col-sm-4 col-lg-4 mt-5">
+            <img
+              src="Assist\photos\WhatsApp Image 2023-02-11 at 4.00.50 PM (2).jpeg"
+              class="card-img-top"
+              alt="..."
+            />
             <div class="card-body">
-            <p class="card-text"></p>
-            <div class="text-center tank">
-            <h2>Tank Top</h2>
-            <p>Finding perfect t-shirt</p>
-            <p>35$</p>
-            </div>
-            </div>
-            </div>
-            <div class="card card col-xl-4 col-md-4 col-sm-4 col-lg-4 mt-5 " >
-            <img src="Assist\photos\wight.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-            <p class="card-text"></p>
-            <div class="text-center tank">
-              <h2>Tank Top</h2>
-              <p>Finding perfect shoes</p>
-              <p>20$</p>
-            </div>
-            </div>
-            </div>
-            <div class="card card col-xl-4 col-md-4 col-sm-4 col-lg-4 mt-5" >
-            <img src="Assist\photos\WhatsApp Image 2023-02-11 at 4.00.50 PM (1).jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-            <p class="card-text"></p>
-            <div class="text-center tank">
-              <h2>Tank Top</h2>
-              <p>Finding perfect t-shirt</p>
-              <p>50$</p>
-            </div>
-            </div>
-            </div>
-        </div>
-
-        <div class="product-3">
-            <div class="card card col-xl-4 col-md-4 col-sm-4 col-lg-4 mt-5" >
-                <img src="Assist\photos\WhatsApp Image 2023-02-11 at 4.00.50 PM (2).jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <p class="card-text"></p>
-                <div class="text-center tank">
+              <p class="card-text"></p>
+              <div class="text-center tank">
                 <h2>Tank Top</h2>
                 <p>Finding perfect t-shirt</p>
                 <p>35$</p>
-                </div>
-                </div>
-                </div>
-                <div class="card card col-xl-4 col-md-4 col-sm-4 col-lg-4 mt-5 " >
-                <img src="Assist\photos\wight.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <p class="card-text"></p>
-                <div class="text-center tank">
-                  <h2>Tank Top</h2>
-                  <p>Finding perfect shoes</p>
-                  <p>20$</p>
-                </div>
-                </div>
-                </div>
-                <div class="card card col-xl-4 col-md-4 col-sm-4 col-lg-4 mt-5" >
-                <img src="Assist\photos\WhatsApp Image 2023-02-11 at 4.00.50 PM (1).jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                <p class="card-text"></p>
-                <div class="text-center tank">
-                  <h2>Tank Top</h2>
-                  <p>Finding perfect t-shirt</p>
-                  <p>50$</p>
-                </div>
-                </div>
-                </div>
+              </div>
             </div>
+          </div>
 
-</div>
+          <div class="card card col-xl-4 col-md-4 col-sm-4 col-lg-4 mt-5">
+            <img
+              src="Assist\photos\wight.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text"></p>
+              <div class="text-center tank">
+                <h2>Tank Top</h2>
+                <p>Finding perfect shoes</p>
+                <p>20$</p>
+              </div>
+            </div>
+          </div>
+          <div class="card card col-xl-4 col-md-4 col-sm-4 col-lg-4 mt-5">
+            <img
+              src="Assist\photos\WhatsApp Image 2023-02-11 at 4.00.50 PM (1).jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text"></p>
+              <div class="text-center tank">
+                <h2>Tank Top</h2>
+                <p>Finding perfect t-shirt</p>
+                <p>50$</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div class="product-2">
+          <div class="card card col-xl-4 col-md-4 col-sm-4 col-lg-4 mt-5">
+            <img
+              src="Assist\photos\WhatsApp Image 2023-02-11 at 4.00.50 PM (2).jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text"></p>
+              <div class="text-center tank">
+                <h2>Tank Top</h2>
+                <p>Finding perfect t-shirt</p>
+                <p>35$</p>
+              </div>
+            </div>
+          </div>
+          <div class="card card col-xl-4 col-md-4 col-sm-4 col-lg-4 mt-5">
+            <img
+              src="Assist\photos\wight.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text"></p>
+              <div class="text-center tank">
+                <h2>Tank Top</h2>
+                <p>Finding perfect shoes</p>
+                <p>20$</p>
+              </div>
+            </div>
+          </div>
+          <div class="card card col-xl-4 col-md-4 col-sm-4 col-lg-4 mt-5">
+            <img
+              src="Assist\photos\WhatsApp Image 2023-02-11 at 4.00.50 PM (1).jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text"></p>
+              <div class="text-center tank">
+                <h2>Tank Top</h2>
+                <p>Finding perfect t-shirt</p>
+                <p>50$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-3">
+          <div class="card card col-xl-4 col-md-4 col-sm-4 col-lg-4 mt-5">
+            <img
+              src="Assist\photos\WhatsApp Image 2023-02-11 at 4.00.50 PM (2).jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text"></p>
+              <div class="text-center tank">
+                <h2>Tank Top</h2>
+                <p>Finding perfect t-shirt</p>
+                <p>35$</p>
+              </div>
+            </div>
+          </div>
+          <div class="card card col-xl-4 col-md-4 col-sm-4 col-lg-4 mt-5">
+            <img
+              src="Assist\photos\wight.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text"></p>
+              <div class="text-center tank">
+                <h2>Tank Top</h2>
+                <p>Finding perfect shoes</p>
+                <p>20$</p>
+              </div>
+            </div>
+          </div>
+          <div class="card card col-xl-4 col-md-4 col-sm-4 col-lg-4 mt-5">
+            <img
+              src="Assist\photos\WhatsApp Image 2023-02-11 at 4.00.50 PM (1).jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text"></p>
+              <div class="text-center tank">
+                <h2>Tank Top</h2>
+                <p>Finding perfect t-shirt</p>
+                <p>50$</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <hr>
+    <hr />
     <foot class="footer">
-        <div class="left-foot">
-          <h2>Navigations</h2>
-          <p>Sell online</p>
-          <p>Features</p>
-          <p>Shopping cart</p>
-          <p>Store builder </p>
-        
-        </div>
-        
-        
-        <div class="left-foot2">
-          <p class="pl1">Mobile commerce</p>
-          <p>Dropshipping</p>
-          <p>Website development</p>
-        
-        </div>
-        
-        
-        <div class="mid-foot">
+      <div class="left-foot">
+        <h2>Navigations</h2>
+        <p>Sell online</p>
+        <p>Features</p>
+        <p>Shopping cart</p>
+        <p>Store builder</p>
+      </div>
+
+      <div class="left-foot2">
+        <p class="pl1">Mobile commerce</p>
+        <p>Dropshipping</p>
+        <p>Website development</p>
+      </div>
+
+      <div class="mid-foot">
         <p class="pl1">Point of sale</p>
         <p>Hardware</p>
         <p>Software</p>
-        </div>
-        
-        
-        <div class="mid-foot2">
+      </div>
+
+      <div class="mid-foot2">
         <h2>promo</h2>
-        <img src="Assist\photos\WhatsApp Image 2023-02-11 at 4.00.51 PM.jpeg" alt="">
-        
+        <img
+          src="Assist\photos\WhatsApp Image 2023-02-11 at 4.00.51 PM.jpeg"
+          alt=""
+        />
+
         <h3>Finding Your Perfect Shoes</h3>
         <p>promo from january 15-25,2022</p>
-        </div>
-        
-        
-        <div class="right-foot">
-        <h2>Contact Info</h2>
-        <div class="loc"><i class="fa-solid fa-location-dot"></i>
-        <p>Badr city,Cairo,Egypt</p>
-        </div>
-        
-        <div class="phone">
-            <i class="fa-solid fa-phone"></i>
-            <p>01101761785</p>
-        
-        </div>
-        
-        <div class="mail">
-            <i class="fa-solid fa-envelope"></i>
-            <p>amouryelsherbiny178@gmail.com</p>
-        
-        </div>
-        
-        <div class="subs">
-        
-        <h2>subscribe</h2>
-        <div class="input">
-            <input type="email" placeholder="Email" >
-            <button type="button"> SEND</button>
-        </div>
-        </div>
-        </div>
-        </foot>
-        
+      </div>
 
+      <div class="right-foot">
+        <h2>Contact Info</h2>
+        <div class="loc">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>Badr city,Cairo,Egypt</p>
+        </div>
+
+        <div class="phone">
+          <i class="fa-solid fa-phone"></i>
+          <p>01113923298</p>
+        </div>
+
+        <div class="mail">
+          <i class="fa-solid fa-envelope"></i>
+          <p>omarmohamed@gmail.com</p>
+        </div>
+
+        <div class="subs">
+          <h2>subscribe</h2>
+          <div class="input">
+            <input type="email" placeholder="Email" />
+            <button type="button" >SEND</button>
+          </div>
+        </div>
+      </div>
+    </foot>
+  </body>
+</html>

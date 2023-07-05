@@ -1,0 +1,52 @@
+@media only screen and (max-width: 415px) {
+    .question-lorem {
+      margin-top: 20px;
+      margin-left: -40px;
+    }
+  
+    .question-lorem-1 {
+      margin-top: 20px;
+    }
+  
+    .midlle-nav {
+      display: none;
+    }
+  
+    .right-side-nav {
+      margin-left: 20px;
+      margin-top: -5px;
+    }
+  
+    .myCard {
+      scale: 0.5;
+      margin-left: -120px;
+      margin-top: -150px;
+    }
+  
+    .myCard-2 {
+      scale: 0.4;
+      margin-left: -160px;
+      margin-top: -290px;
+    }
+  
+    .the-all {
+      margin-left: -100px;
+    }
+    .footer {
+      display: none;
+    }
+  
+    .but {
+      padding-bottom: 20px;
+    }
+  
+    .eployyes {
+      scale: 0.6;
+    }
+  
+    .shpe-but {
+      margin-left: 100px;
+    }
+  }
+
+ 
